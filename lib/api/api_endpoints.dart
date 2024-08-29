@@ -1,6 +1,6 @@
 class ApiEndpoints{
   // Base url
-  static const String baseUrl = "https://learnquest-backend.onrender.com/";
+  static const String baseUrl = "BASE URL";
 
   // Authentication endpoints
   static const String signIn = "api/auth/login";
