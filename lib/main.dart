@@ -22,7 +22,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       initialRoute: appRoutes.splashScreen,
-      // initialRoute: appRoutes.welcomeScreen,
       routes: {
         '/Splashscreen': (context) => Splashscreen(),
         '/Welcomescreen': (context) => Welcomescreen(),
